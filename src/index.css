@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* color: black */
+  
+}
+@font-face {
+  font-family: Great1;
+  src: url(./assets/Commissioner-VariableFont_FLAR\,VOLM\,slnt\,wght.ttf);
+
+}
+@font-face {
+  font-family: Great2;
+  src: url(./assets/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Great3;
+  src: url(./assets/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf);
+}

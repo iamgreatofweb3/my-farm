@@ -1,0 +1,50 @@
+.storyContainer {
+    margin-top: 1em;
+    padding: 1.2em;
+    button {
+         background-color: rgb(199, 225, 59);
+         border: 0px;
+         border-radius: 2em;
+         padding: 1em;
+         cursor: pointer;
+         margin-top: 0.6em;
+    }
+    a {
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+}
+.leftStory {
+    font-family: Great3;
+    margin-bottom: 0.4em;
+    h1 {
+    font-weight: 500;
+font-size: 3em; }
+}
+.rightStory {
+    font-family: Great3;
+    h3 {
+        font-size: 1em;
+        font-weight: 500;
+        margin-top: 1em;
+    }
+}
+@media (min-width:768px) {
+    .storyContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 1 auto;
+    }
+    .leftStory {width: 70%;}
+        h1 {
+        font-size: 5em;
+    }
+    .rightStory {
+        margin: 0 3em;
+        h3 {
+            line-height: 1.5em;
+            font-size: 1.2em;
+        }
+    }
+}

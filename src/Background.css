@@ -1,0 +1,177 @@
+.heroBackground {
+    position: relative;
+    max-width: 100%;
+    min-height: 100dvh;
+    overflow: hidden;
+    img {
+        width: 100%;
+        object-fit: cover;
+        min-height: 100dvh;
+    }
+}
+.overlay{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+}
+.header-container {
+    position: absolute;
+    top: 0.1%;
+    padding: 1.2em;
+    font-family: Great3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    left: 0;
+    right: 0;
+}
+.left-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.headerIcon {
+    /* background-color: rgba(189, 245, 106, 0.639); */
+    padding: 0.4em;
+    width: 3em;
+    stroke: green;
+    height: 3em;
+    background-color: rgb(199, 225, 59);
+    border-radius: 0.3em;
+}
+.rightHeader {
+  
+    button {
+        background-color: rgb(199, 225, 59);
+        border: 0;
+        cursor: pointer;
+    }
+}
+.rightIcon {
+    stroke: green;
+    padding: 0.4em;
+    width: 3em;
+    height: 3em;
+    background-color: rgb(199, 225, 59);
+    border-radius: 0.3em;    
+}
+.dropDownContainer {
+    display: none;
+    a {
+        text-decoration: none;
+        color: white;
+        list-style: none;
+    }
+}
+.heroContainer {
+    position: absolute;
+    top: 20%;
+    font-family: Great1;
+    padding: 2em;
+    color: white;
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+}
+.leftHero {
+    p {
+        font-size: 1.4em;
+        margin-bottom: 1em;
+    }
+}
+.buttonCnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2em;
+    button {
+        padding: 0.7em;
+        border-radius: 3em;
+        border: 1px solid transparent;
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+.leftBtn {
+    a {
+        color: black;
+    }
+    button {
+        background-color: rgb(199, 225, 59);
+    }
+}
+.rightBtn {
+    a {
+        color: white;
+    }
+    button {
+        background-color: transparent;
+        border: 1px solid white;
+    }
+}
+.leftBtn button:hover {
+    background-color: white;
+}
+.rightBtn button:hover {
+    background-color: rgb(199, 225, 59);
+    a {
+        color :black;
+    }
+}
+.rightHero {
+    .farmer {
+        display: none;
+    }
+}
+@media (min-width:768px) {
+    .heroBackground img {
+        height: 100vh;
+    }
+    .rightHeader {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dropDownContainer {
+        display: flex;
+        gap: 2em;
+    }
+    .rightIcon {
+        display: none;
+    }
+    .button {
+        border-radius: 2em;
+        padding: 1em;
+        margin-top: -0.7em;
+    }
+    .heroContainer {
+       display: flex;
+       align-items: flex-start;
+       justify-content: space-between;
+        padding: 3em;
+    }
+    .rightHero {
+        width: 50%;
+    }
+    .buttonCnt {
+        display: flex;
+        justify-content: start;
+        margin-bottom: 1em;
+    }
+    .button a {
+        color: black;
+        font-size: 1em;
+        font-weight: 600;
+    }
+    .mobile {
+        /* display: none; */
+    }
+    .desktop {
+        /* display: block; */
+    }
+}

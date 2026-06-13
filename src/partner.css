@@ -1,0 +1,79 @@
+.formContainer{
+    margin-top: -2em;
+    padding: 2em;
+    h1 {
+        font-family: Great3;
+    }
+    
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    input {
+        margin: 0.5em;
+        width: 17em;
+        outline: 0px;
+        border: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.533);
+        padding: 1em;
+        cursor:auto;
+        font-family: Great1;
+        font-size: 1.2em;
+        color: black;
+        display: flex;
+    }
+    input::placeholder {
+        font-size: 1em;
+        font-family: Great3;
+        font-weight: 300;
+        color: black;
+    }
+}
+textarea {
+    width: 17em;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.533);
+    font-family: Great1;
+    font-size: 1.1em;
+    outline: none; 
+    margin-bottom: 1em;
+}
+textarea::placeholder {
+    color: black;
+}
+.grid {
+    margin-top: -2em;
+}
+
+@media(min-width:768px) {
+    .formContainer {
+        margin-top: -2em;
+        h1 {
+            font-size: 3em;
+            font-weight: 600;
+            width: 60%;
+        }
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 0 1em;
+        padding: 0 2em;
+        input {
+            width: 100%;
+        }
+    }
+    textarea {
+        padding: 1em;
+        margin-bottom: 1em;
+        width: 100%;
+            }
+            .textSection {
+                padding:  1em;
+                margin: 0 auto;
+                margin-bottom: 2em;
+                width: 100%;
+            }
+        }

@@ -1,0 +1,141 @@
+.footerSection{
+      background: rgb(0, 47, 36);
+      padding: 2em;
+}
+.leftFooter {
+    font-family: Great2;
+    color: white;
+    font-size: 1.4em;
+    h1 {
+        margin-bottom: 0.4em;
+    }
+}
+.rightFooter {
+    display: grid;
+    font-family: Great2;
+    input {
+        padding: 1em;
+        border-radius: 2em;
+        outline: 0;
+        border: 0px;
+        height: 4em;
+        margin-bottom:1em ;
+    }
+    .submitBtn {
+        padding: 1em;
+        border-radius: 2em;
+        outline: 0;
+        border: 0px;
+        height: 4em;
+        margin-bottom:1em ;
+         cursor: pointer;
+          background: rgb(199, 240, 74);
+        a {
+            
+            color: #002f24;
+            text-decoration: none;
+            font-size: 1.3em;
+        }
+    }
+}
+.iconSvg{
+    background-color: red;
+    padding: 2em;
+    height: 0.2em;
+    width: 0.1em;
+}
+.icon {
+    background-color: rgb(199, 240, 74);
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.5em;
+    padding: 0.2em;
+    stroke: green;
+}
+.footerBottom{
+    margin-top: 2em;
+}
+.socialArea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2em;
+    color: white;
+    font-family: Great1;
+    a {
+        color: white;
+        text-decoration: none;
+        font-weight: 300;
+    }
+    h5 {
+        margin-top: 0.3em;
+    }
+}
+.leftIcon {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: Great2;
+    gap: 0.7em;
+}
+.socials {
+    margin-top: 2em;
+    img {
+        background-color: rgb(199, 240, 74);
+        width: 3em;
+        padding: 0.2em;
+        height: 3em;
+        border-radius: 2em;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.3em;
+    }
+    button{
+        display: flex;
+        align-items: center;
+        gap: 2em;
+    }
+}
+@media(min-width:768px) {
+    .footerTop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1.5em;
+    }
+    .leftFooter {
+        h1 {
+            font-size: 3em;
+        }
+    }
+    .rightFooter {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+    }
+    input {
+        width: 30em;
+    }
+    .footerBottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+ .socialArea  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6em;
+ }   
+ .socials {
+    a {
+        font-size: 1em;
+    }
+    button{
+    width: 20em;
+    height: 4em;
+ }
+ }
+}
